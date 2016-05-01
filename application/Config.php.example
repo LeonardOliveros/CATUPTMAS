@@ -1,0 +1,31 @@
+<?php
+//App
+//Ruta Principal
+define('BASE_URL', 'http://localhost/CATUPTMAS/');
+//Controlador por Defecto
+define('DEFAULT_CONTROLLER', 'index');
+//Nombre de la APP
+define('APP_NAME', 'CATUPTMAS');
+//Clave de Encriptacion
+define('HASH_KEY', 'key');
+//Tiempo Limite
+define('SESSION_TIME', 0);
+
+//Template
+define('DEFAULT_LAYOUT', 'adminex');
+//Porcentaje de Disponibilidad de los Ahorros
+define('DISPONIBILIDAD', 0.75);
+
+// Base de Datos
+//Host de la Base de Datos
+define('DB_HOST', 'host');
+//Usuario de Base de Datos
+define('DB_USER', 'user');
+//Clave de Base de Datos
+define('DB_PASS', 'secret');
+//Nombre de Base de datos
+define('DB_NAME', 'catuptmas');
+//Sistema de Caracteres
+define('DB_CHAR', 'utf8');
+//Directorio para almacenar los Backup
+define('DB_BACKUPS', 'Backups/');// Cambiar segun necesidades y tipo servidor
