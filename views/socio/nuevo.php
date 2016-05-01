@@ -24,7 +24,7 @@
             <div class="panel-body">
                 <div class="tab-content">
                     <div class="tab-pane active" id="tab1">
-                        <div class="col-md-7 col-md-offset-2">
+                        <div class="col-md-5 col-md-offset-1">
                           <div class="form-group">
                             <label class="col-sm-3 col-sm-3 control-label">C&oacute;digo:</label>
                             <div class="col-sm-9">
@@ -49,6 +49,8 @@
                               <input type="text" required class="form-control" pattern="<?= $_validationRegex['text']?>" title="<?= $_validationTitle['text']?>" id="nombres_soc" name="nombres_soc" placeholder="Introduzca los Nombres" value="<?php if (isset($this->datos["nombres_soc"])): echo $this->datos["nombres_soc"]; endif;?>">
                             </div>
                           </div>
+                        </div>
+                        <div class="col-md-5">
                           <div class="form-group">
                             <label class="col-sm-3 col-sm-3 control-label">Tel&eacute;fono:</label>
                             <div class="col-sm-9">
@@ -67,6 +69,10 @@
                               <textarea class="form-control" pattern="<?= $_validationRegex['alphanum']?>" title="<?= $_validationTitle['alphanum']?>" id="direccion_soc" name="direccion_soc" placeholder="Introduzca la Direcci&oacute;n"><?php if (isset($this->datos["direccion_soc"])): echo $this->datos["direccion_soc"]; endif;?></textarea>
                             </div>
                           </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div class="col-md-5 col-md-offset-1">
                           <div class="form-group">
                             <label class="col-sm-3 col-sm-3 control-label">Tipo:</label>
                             <div class="col-sm-9">
@@ -117,6 +123,8 @@
                               <input type="text" readonly class="form-control" id="aporte_socio_soc" name="aporte_socio_soc" placeholder="Introduzca el Aporte Socio" value="<?php if (isset($this->datos["aporte_socio_soc"])): echo $this->datos["aporte_socio_soc"]; else: echo '0.00'; endif;?>">
                             </div>
                           </div>
+                        </div>
+                        <div class="col-md-5">
                           <div class="form-group">
                             <label class="col-sm-3 col-sm-3 control-label">Banco del Socio:</label>
                             <div class="col-sm-9">
@@ -140,10 +148,6 @@
                             </div>
                           </div>
                         </div>
-                    </div>
-                    <div class="tab-pane" id="tab2">
-                        <p>Vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,</p>
                     </div>
                     <div class="tab-pane" id="tab3">
 

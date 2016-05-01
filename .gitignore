@@ -1,3 +1,4 @@
-Config.php
+Config.php*
 Backups/*
+!/Backups/
 prueba.php
